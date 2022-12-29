@@ -16,13 +16,14 @@
     <td>${item.product.price}円</td>
     <td>${item.count}個</td>
     </tr>
-<c:forEach>
+</c:forEach>
 </table>
 <hr>
 
 <form action="Purchase.action" method="post">
     <p>お名前<input type="text" name="name"></p>
     <p>ご住所<input type="text" name="name"></p>
+    <p><input type="submit" value="購入を確定"></p>
 </form>
 
 <%@include file="../footer.html" %>
