@@ -22,7 +22,7 @@
 
 <form action="Purchase.action" method="post">
     <p>お名前<input type="text" name="name"></p>
-    <p>ご住所<input type="text" name="name"></p>
+    <p>ご住所<input type="text" name="address"></p>
     <p><input type="submit" value="購入を確定"></p>
 </form>
 
